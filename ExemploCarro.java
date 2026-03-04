@@ -12,9 +12,9 @@ package com.mycompany.carro;
         Carro umCarro = new Carro();
         
         
-       umCarro.Modelo = "Gol";
-       umCarro.Cor = "Preto";
-       umCarro.Motor = "1.0";
+       umCarro.modelo();
+       umCarro.cor();
+       umCarro.motor();
        
        umCarro.acelerar();
        umCarro.mudarMarcha();
@@ -24,4 +24,5 @@ package com.mycompany.carro;
        
        umCarro = null;
     }
+
 }
